@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <h2>User Login</h2>
+    <link rel="StyleSheet1.css" />
+
+    <form class="SignIn_form" method="post" name="form" onsubmit="return Validated()"></form>
+    <label for="uName">Username</label>
+    <input type="text" id="uName" name="uName" required />
+    <div id="uName_error">Incorrect Username,Please enter correct e-mail</div>
+    <br />
+    <br />
+    <label for="pWord">Password</label>
+    <input type="text" id="pWord" name="pWord" required />
+    <div id="pWord_error">Incorrect Password,Please a valid Password</div>
+
+    <br />
+    <br />
+    <input type="submit" value="Sign In" />
+    <br />
+    <br />
+    <label>
+        <input type="checkbox" checked="checked" name="remember" />Remember Me
+    </label>
+    <p>If you do not have an account  <a href="SignUp.html">Sign Up</a></p>
+    <a href="ForgotPassword.html">Forgot Password</a>
+
+    <script src="Script1.js"></script>
+</body>
+</html>
